@@ -2,6 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
+
   rootNotionPageId: '32cc2194c7f542a0998bd28b9897f981',
 
   // if you want to restrict pages to a single notion workspace (optional)
@@ -10,7 +11,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'My project',
-  domain: '',
+  domain: 'zingy-muffin-7c14bb.netlify.app',
   author: 'Vincent Bakpatina',
 
   // open graph metadata (optional)
@@ -54,13 +55,13 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'ABOUT',
-      pageId: '',
-      url: ''
+      pageId: '32cc2194c7f542a0998bd28b9897f981',
+      url: 'https://vincentbakpatina.me/'
+
     },
     {
       title: 'HOME',
-      pageId: '',
-      url: ''
+      url: 'https://vincentbakpatina.me/'
     }
   ]
 })
